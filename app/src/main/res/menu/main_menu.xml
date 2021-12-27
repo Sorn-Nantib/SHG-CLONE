@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_call"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_testing"
+            android:icon="@drawable/ic_call"
+            android:title="Love" />
+        <item
+            android:id="@+id/nav_SornNantib"
+            android:icon="@drawable/ic_call"
+            android:title="Live" />
+        <item
+            android:id="@+id/nav_home1"
+            android:icon="@drawable/ic_call"
+            android:title="Hate you " />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+
+            android:title="Profile">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_call"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_call"
+                    android:title="Love" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_call"
+                    android:title="Live" />
+                <item
+                    android:id="@+id/nav_log"
+                    android:icon="@drawable/ic_call"
+                    android:title="Hate you " />
+            </menu>
+        </item>
+
+    </group>
+    <item
+        android:title="Comment"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_hard"
+                android:icon="@drawable/ic_call"
+                android:title="Home" />
+            <item
+                android:id="@+id/nav_hat"
+                android:icon="@drawable/ic_call"
+                android:title="Love" />
+        </menu>
+
+    </item>
+</menu>
